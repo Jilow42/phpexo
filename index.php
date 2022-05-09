@@ -35,12 +35,10 @@
     <section>
         <h2 class="title has-text-centered">Exercice 3</h2>
         <?php require_once('./robot.php');
-        $robot = new Robot();
-        echo $robot ;
-        ?>
+        $robot = new Robot(); ?>
+        <p class="has-text-centered"><?= reverseString($text) ?></p>
 
     </section>
-
 
 </body>
 
