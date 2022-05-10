@@ -45,6 +45,17 @@
         $cc = "1234-5678-9012"?>
         <p class="has-text-centered"><?= maskify($cc) ?></p>
     </section>
+
+    <section>
+        <h2 class="title has-text-centered">Exercice 4</h2>
+        <?php require_once('./clock.php');
+        $time= new Clock();
+        // $time2 = $time.addMin(1);
+        // $time3 = $time.subMin(1);?>        
+        <p class="has-text-centered">The time is <?= $time ?></p>
+        <!-- <p class="has-text-centered">The time is <?= $time2 ?></p>
+        <p class="has-text-centered">The time is <?= $time3 ?></p> -->
+    </section>
 </body>
 
 </html>

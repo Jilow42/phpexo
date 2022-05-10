@@ -9,7 +9,7 @@ function maskify(string $cc): string
     $strExplode = explode('-', $cc);
     $strSplit = (str_contains($cc, '-')) ? $strExplode : $strSplit;
 
-    if (strlen($cc > 6)) {
+    if (strlen($cc)> 6) {
         foreach ($strSplit as $k => $v) {
             if ($k === 0) {
                 $strReplace = substr_replace($v, '###', 1, 3);
