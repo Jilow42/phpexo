@@ -36,10 +36,8 @@
         <h2 class="title has-text-centered">Exercice 3</h2>
         <?php require_once('./robot.php');
         $robot = new Robot(); ?>
-        <p class="has-text-centered"><?= reverseString($text) ?></p>
-
+        <p class="has-text-centered"><?= $robots ?></p>
     </section>
-
 </body>
 
 </html>
