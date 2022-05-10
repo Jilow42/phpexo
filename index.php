@@ -38,6 +38,13 @@
         $robot = new Robot(); ?>
         <p class="has-text-centered"><?= $robots ?></p>
     </section>
+
+    <section>
+        <h2 class="title has-text-centered">Exercice 4</h2>
+        <?php require_once('./maskify.php');
+        $cc = "1234-5678-9012"?>
+        <p class="has-text-centered"><?= maskify($cc) ?></p>
+    </section>
 </body>
 
 </html>

@@ -10,6 +10,7 @@ class Robot
         global $robots;
         $robots = [];
         if (!empty($GLOBALS["robots"])) {
+            $this->$robots = $this->getName();;
             if (!in_array($robots, $GLOBALS["robots"])) {
                 $robots = array_push($robots, $GLOBALS["robots"]);
                 return $robots;
