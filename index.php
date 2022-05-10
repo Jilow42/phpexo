@@ -47,7 +47,7 @@
     </section>
 
     <section>
-        <h2 class="title has-text-centered">Exercice 4</h2>
+        <h2 class="title has-text-centered">Exercice 5</h2>
         <?php require_once('./clock.php');
         $time= new Clock();
         // $time2 = $time.addMin(1);
@@ -55,6 +55,18 @@
         <p class="has-text-centered">The time is <?= $time ?></p>
         <!-- <p class="has-text-centered">The time is <?= $time2 ?></p>
         <p class="has-text-centered">The time is <?= $time3 ?></p> -->
+    </section>
+
+    <section>
+        <h2 class="title has-text-centered">Exercice 6</h2>
+        <?php require_once('./school.php'); ?>
+        <p class="has-text-centered"><?= $school ?></p>
+    </section>
+
+    <section>
+        <h2 class="title has-text-centered">Exercice 7</h2>
+        <?php require_once('./matrix.php'); ?>
+        <p class="has-text-centered"><?= $matrix ?></p>
     </section>
 </body>
 
